@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Kalkulačka na pokuty</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header class="bg-primary text-center">
+        <H1 class="display-3 text-light p-2">KALKULAČKA NA POKUTY</H1>
+    </header>
+    <main class="container">
+        <div class="row">
+            <h2 class="text-uppercase text-center text-dark">výpočet průměrné rychlosti</h2>
+        </div>
+        <div class="mb-3">
+            <form action="">
+            <label for="" class="form-label">Zadejte čas (min)</label>
+            <input type="number" class="form-control" name="cas" id="cas" placeholder="Zadejte čas">
+            <label for="" class="form-label">Zadejte ujetou vzdálenost v km</label>
+            <input type="number" class="form-control" name="km" id="km" placeholder="Zadejte vzdálenost v km">
+            <label for="" class="form-label">Zadejte vzdálenost ujetou v obci (%)</label>
+            <input type="number" class="form-control" name="obec" id="obec" min="0" max="100" placeholder="Zadejte %">
+            <label for="" class="form-label">Zadejte vzdálenost ujetou mimo obec (%)</label>
+            <input type="number" class="form-control" name="mimo" id="mimo" min="0" max="100" placeholder="Zadejte %">
+            <label for="" class="form-label">Zadejte vzdálenost ujetou v po dálnici (%)</label>
+            <input type="number" class="form-control" name="dalnice" id="dalnice" min="0" max="100" placeholder="Zadejte %">
+        </div>
+        <div class="text-center">
+            <button type="button" class="btn btn-danger">
+                Vypočítat
+            </button>
+        </div>
+    </form>
+    <div id="vystup" class="display-6">
+        ..
+    </div>
+        <p><a href="https://pojisteninapokuty.cz">Dostali Vás? Klikněte zde.</a></p>
+        <p><a href="https://www.cebia.cz/pruvodce/pokuty-za-rychlost-kompletni-prehled">Přehled pokut zde.</a></p>
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+</body>
+
+</html>
